@@ -13,7 +13,6 @@ on:
   push:
     branches: 
       - master
-        - 
   schedule:
     - cron: "50 2 * * 5"
   
