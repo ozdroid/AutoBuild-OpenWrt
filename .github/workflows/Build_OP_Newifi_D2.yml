@@ -8,15 +8,15 @@
 name: Build_Newifi_D2
 
 on: 
-  #release:
-  #  types: [published]
+  release:
+    types: [published]
 
   #push:
   #  branches: 
   #    - master
 
-  schedule:
-    - cron: 1 5 * * *
+  #schedule:
+  #  - cron: 1 5 * * *
   
   #watch:
   #  types: [started]
