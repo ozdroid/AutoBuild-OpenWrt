@@ -13,8 +13,8 @@ on:
   push:
     branches: 
       - master
-  schedule:
-    - cron: "50 2 * * 5"
+  #schedule:
+  #  - cron: "50 2 * * 5"
   
   #watch:
   #  types: [started]
